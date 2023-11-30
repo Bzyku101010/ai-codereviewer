@@ -107,8 +107,6 @@ function createPrompt(file: File, chunk: Chunk, prDetails: PRDetails): string {
 - IMPORTANT: NEVER suggest adding comments to the code.
 - Always propose the code to resolve given issue found by you.
 
-Always use following ESlint rules:
-${readFileSync('rules.txt', 'utf8')}
 
 Review the following code diff in the file "${
     file.to
